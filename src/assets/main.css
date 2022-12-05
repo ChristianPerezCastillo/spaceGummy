@@ -1,0 +1,6 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+body {
+  font-family: 'Crafty Girls', cursive;
+  background-image: url("./img/space.png");
+}
