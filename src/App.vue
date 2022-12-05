@@ -1,30 +1,41 @@
 
 <template>
 <div class="container text-center m-1">
-    <div class="row">
+    <div class="row justify-content-center">
 
 
         
 
-        <!--  -->
-        <div class="col-md-4 mt-4 p-3">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="./assets/img/gummy.png" class="card-img-top" alt="...">
+        <!-- Secciont tamaño -->
+        <div class="col-sm-12 col-md-6 mt-4 p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <img src="./assets/img/gummy.png" class="card-img-top" alt="...">
+                    </div>
                 </div>
-            </div>
            
             <div class="row" id="tamaño">
-                <div class="col-md-12">
+                <div class="col-12 col-sm-12 col-md-12">
                     <div class="card text-center bg-transparent glass">
                         <div class="card-header text-light">
                             <h2>Elige el tamaño de tu pedido.</h2>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-light">¿Qué tamaño vas a querer?</h5>
-                            <div class="container">
-                                <div class="row justify-content-center m-4">
-                                    <div class="col-6 col-sm-4 col-md-6 p-4" id="tamañoChi">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Seccion productos -->
+        <div class="col-md-12">
+            <div class="container text-center glass">
+                
+                <div class="row m-4 justify-content-center" id="gomitas">
+                    <div class="col-6 col-sm-4 col-md-6 p-4" id="tamañoChi">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -42,15 +53,12 @@
                             </div>
                         </div>
                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+            
         </div>
-        <!--  -->
-        <div class="col-md-8">
+        <!-- Seccion productos -->
+        <div class="col-md-12">
             <div class="container text-center glass">
                 
                 <div class="row m-4 justify-content-center" id="gomitas">
@@ -325,7 +333,7 @@
             </div>
             
         </div>
-        <!--  -->
+        <!-- Listo  -->
         <div class="col-md-12 col-lg-12 mt-4 p-3">
             <div class="row">
                 <div class="col-md-12">
