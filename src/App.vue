@@ -1,13 +1,13 @@
 
 <template>
-<div class="text-center">
-    <div class="row justify-content-center">
+<div class="">
+    <div class="row">
 
 
         
 
         <!-- Secciont tamaño -->
-        <section class="col-12 col-sm-12 col-md-12 mt-4 p-3">
+        <section class="col-12 col-sm-12 col-md-12 m-2">
             
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-center align-items-center">
@@ -33,7 +33,7 @@
                                     2 frutas
                                 </span>
                                 <br>
-                                <button type="button" class="btn btn-primary btn-lg fs-1 m-4" id="tamañoChi">$40</button>
+                                <button type="button" class="btn btn-info btn-lg fs-1 m-4" id="tamañoChi">$40</button>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="">
@@ -45,7 +45,7 @@
                                 </span>
                                 <br>
                                 
-                                <button type="button" class="btn btn-primary btn-lg fs-1 m-4" id="tamañoGrd">$65</button>
+                                <button type="button" class="btn btn-info btn-lg fs-1 m-4" id="tamañoGrd">$65</button>
                         </div>
                     </div>
                 </div>
@@ -61,56 +61,50 @@
         
         <!-- Seccion productos -->
         <div class="col-md-12">
-            <div class="container text-center glass border">
+            <div class=" text-center glass border">
                 
                 <div class="row m-4 p-4 justify-content-center " id="gomitas">
                     <h2 class="text-light">GOMITAS</h2>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="panditaSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="panditas">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Panditas</p>
-                            </div>
+                        
+                                <button type="button" class="btn btn-outline-info">Panditas</button>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="manguitoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="manguitos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Manguitos</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Manguitos</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="gusanitoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="gusanitos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Gusanitos</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Gusanitos</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="aciditoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="aciditos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Aciditos</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Aciditos</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="mangoEnchiladoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="mangosEnchilados">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Mangos Enchilados</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Mangos Enchilados</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="picafresaSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="picafresas">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Picafresa</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Picafresa</button>
+                        
                         </div>
                     </div>
                     
@@ -119,49 +113,43 @@
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="aritoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="aritos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Aritos</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Aritos</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Dulcigomas</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Dulcigomas</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Tira de mango enchilado</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Tira de mango enchilado</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Patas de gallo</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Patas de gallo</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Gomitas de pinguino</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Pinguinos</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Aritos Enchilados</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Aritos enchilados</button>
+                        
                         </div>
                     </div>
                     
@@ -174,17 +162,15 @@
                             <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 8rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 8rem; height: 8rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Saladas</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Saladas</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Adobadas</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Adobadas</button>
+                        
                         </div>
                     </div>
                         </div>
@@ -196,17 +182,15 @@
                     <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Hot nuts</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Hot Nuts</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Cacahuates enchilados</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-info">Cacahuates enchilados</button>
+                        
                         </div>
                     </div>
                         </div>
@@ -221,17 +205,14 @@
                             <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 7rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 7rem; height: 7rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Pepino</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-warning">Pepino</button>
+                        
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 7rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 7rem; height: 7rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Zanahoria</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-warning">Zanahoria</button>
                         </div>
                     </div>
                         </div>
@@ -239,17 +220,13 @@
                             <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 7rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 7rem; height: 7rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Sandia</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-warning">Sandia</button>
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 7rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 7rem; height: 7rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Piña</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-warning">Piña</button>
                         </div>
                     </div>
                         </div>
@@ -260,25 +237,19 @@
                             <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Chamoy natural</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Chamoy natural</button>
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Botanera</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Botanera</button>
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Maggi</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Maggi</button>
                         </div>
                     </div>
                         </div>
@@ -286,25 +257,19 @@
                             <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Inglesa</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Inglesa</button>
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Jugo de limon</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Jugo de limon</button>
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Miguelito</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Miguelito</button>
                         </div>
                     </div>
                         </div>
@@ -312,17 +277,13 @@
                             <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Tajin</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Tajin</button>
                         </div>
                     </div>
                     <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
-                                <p class="card-text text-light">Salsa valentina</p>
-                            </div>
+                            <button type="button" class="btn btn-outline-success">Salsa valentina</button>
                         </div>
                     </div>
                     
