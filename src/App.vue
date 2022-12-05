@@ -10,7 +10,7 @@
         <section class="col-12 col-sm-12 col-md-12 mt-4 p-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12">
+                    <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-center align-items-center">
                         <img src="./assets/img/gummy.png" class="" alt="..." style="width: 50rem;">
                     </div>
                 </div>
