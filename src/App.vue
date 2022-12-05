@@ -1,17 +1,17 @@
 
 <template>
-<div class="container text-center m-1">
+<div class="text-center">
     <div class="row justify-content-center">
 
 
         
 
         <!-- Secciont tamaño -->
-        <section class="col-sm-12 col-md-12 mt-4 p-3">
+        <section class="col-12 col-sm-12 col-md-12 mt-4 p-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12">
-                        <img src="./assets/img/gummy.png" class="" alt="..." style="width: 30rem;">
+                        <img src="./assets/img/gummy.png" class="" alt="..." style="width: 50rem;">
                     </div>
                 </div>
            
@@ -22,20 +22,29 @@
                             <h5 class="card-title text-light">¿Qué tamaño vas a querer?</h5>
                             <div class="container">
                                 <div class="row m-4 justify-content-center" id="gomitas">
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center" id="tamañoChi">
-                        <div class="bg-transparent" style="width: 5rem;" id="">
-                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="..." style="width: 5rem; height: 5rem;">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="tamañoChi">
+                        <div class="bg-transparent" style="width: 15rem;" id="">
+                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="..." style="width: 15rem; height: 15rem;">
                             
-                                <p class="card-text text-light">Chi</p>
-                                <span>$40</span>
+                                <h2 class="card-text text-light">Paquete chico</h2>
+                                <span>Puedes elegir:
+                                    6 tipos de gomitas
+                                    2 tipos de botonas
+                                    2 frutas
+                                </span>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-lg">$40</button>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center" id="tamañoGrd">
-                        <div class="bg-transparent" style="width: 8rem;" id="">
-                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 8rem; height: 8rem;">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="tamañoGrd">
+                        <div class="bg-transparent" style="width: 20rem;" id="">
+                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 20rem; height: 20rem;">
                             
-                                <p class="card-text text-light">Grd</p>
-                                <span>$65</span>
+                                <h2 class="card-text text-light">Paquete grande</h2>
+                                <span>Puedes elegir de todo. El tamaño de la charola es mas grande.
+                                </span>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-lg">$65</button>
                         </div>
                     </div>
                 </div>
