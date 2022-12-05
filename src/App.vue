@@ -7,56 +7,48 @@
         
 
         <!-- Secciont tamaño -->
-        <div class="col-sm-12 col-md-6 mt-4 p-3">
+        <section class="col-sm-12 col-md-12 mt-4 p-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12">
-                        <img src="./assets/img/gummy.png" class="card-img-top" alt="...">
+                        <img src="./assets/img/gummy.png" class="" alt="..." style="width: 30rem;">
                     </div>
                 </div>
            
-            <div class="row" id="tamaño">
+            <div class="row d-flex justify-content-center" id="tamaño">
                 <div class="col-12 col-sm-12 col-md-12">
-                    <div class="card text-center bg-transparent glass">
-                        <div class="card-header text-light">
+                    <div class="text-center bg-transparent glass p-4">
                             <h2>Elige el tamaño de tu pedido.</h2>
-                        </div>
-                        <div class="card-body">
                             <h5 class="card-title text-light">¿Qué tamaño vas a querer?</h5>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <!-- Seccion productos -->
-        <div class="col-md-12">
-            <div class="container text-center glass">
-                
-                <div class="row m-4 justify-content-center" id="gomitas">
-                    <div class="col-6 col-sm-4 col-md-6 p-4" id="tamañoChi">
+                            <div class="container">
+                                <div class="row m-4 justify-content-center" id="gomitas">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center" id="tamañoChi">
                         <div class="bg-transparent" style="width: 5rem;" id="">
-                            <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
-                            <div class="card-body">
+                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="..." style="width: 5rem; height: 5rem;">
+                            
                                 <p class="card-text text-light">Chi</p>
                                 <span>$40</span>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-6 " id="tamañoGrd">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center" id="tamañoGrd">
                         <div class="bg-transparent" style="width: 8rem;" id="">
-                            <img src="./assets/img/gummy.png" class="card-img-top" alt="" style="width: 8rem; height: 8rem;">
-                            <div class="card-body">
+                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 8rem; height: 8rem;">
+                            
                                 <p class="card-text text-light">Grd</p>
                                 <span>$65</span>
-                            </div>
                         </div>
                     </div>
                 </div>
+                            </div>
+                    </div>
+                </div>
             </div>
+            </div>
+        </section>
+        <section class="col-md-12">
             
-        </div>
+        </section>
+        
         <!-- Seccion productos -->
         <div class="col-md-12">
             <div class="container text-center glass">
