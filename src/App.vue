@@ -22,7 +22,7 @@
                             <h5 class="card-title text-light">¿Qué tamaño vas a querer?</h5>
                             <div class="container">
                                 <div class="row m-4 justify-content-center" id="gomitas">
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="tamañoChi">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 15rem;" id="">
                             <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="..." style="width: 15rem; height: 15rem;">
                             
@@ -33,18 +33,18 @@
                                     2 frutas
                                 </span>
                                 <br>
-                                <button type="button" class="btn btn-primary btn-lg">$40</button>
+                                <button type="button" class="btn btn-primary btn-lg" id="tamañoChi">$40</button>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="tamañoGrd">
-                        <div class="bg-transparent" style="width: 20rem;" id="">
-                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 20rem; height: 20rem;">
+                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="">
+                        <div class="bg-transparent" style="width: 15rem;" id="">
+                            <img src="./assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 15rem; height: 15rem;">
                             
                                 <h2 class="card-text text-light">Paquete grande</h2>
                                 <span>Puedes elegir de todo. El tamaño de la charola es mas grande.
                                 </span>
                                 <br>
-                                <button type="button" class="btn btn-primary btn-lg">$65</button>
+                                <button type="button" class="btn btn-primary btn-lg" id="tamañoGrd">$65</button>
                         </div>
                     </div>
                 </div>
@@ -60,11 +60,11 @@
         
         <!-- Seccion productos -->
         <div class="col-md-12">
-            <div class="container text-center glass">
+            <div class="container text-center glass border">
                 
-                <div class="row m-4 justify-content-center" id="gomitas">
+                <div class="row m-4 p-4 justify-content-center " id="gomitas">
                     <h2 class="text-light">GOMITAS</h2>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="panditaSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="panditaSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="panditas">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="manguitoSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="manguitoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="manguitos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="gusanitoSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="gusanitoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="gusanitos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="aciditoSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="aciditoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="aciditos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="mangoEnchiladoSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="mangoEnchiladoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="mangosEnchilados">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="picafresaSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="picafresaSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="picafresas">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -115,7 +115,7 @@
                     
                 </div>
                 <div class="row m-4 my-1 justify-content-center">
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="aritoSelect">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="aritoSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="aritos">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-2 p-4" id="">
+                    <div class="col-6 col-sm-4 col-md-2 p-4 d-flex justify-content-center align-items-center" id="">
                         <div class="bg-transparent" style="width: 5rem;" id="">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -165,12 +165,12 @@
                     </div>
                     
                 </div>
-                <div class="row p-2">
-                    
+                <div class="row p-2 border">
+                    <h2>BOTANAS</h2>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                         <h2 class="text-light">PAPITAS</h2>
                         <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 p-4" id="chipsSelect">
+                            <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 8rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 8rem; height: 8rem;">
                             <div class="card-body">
@@ -178,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 p-4">
+                    <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
                             <div class="card-body">
@@ -189,10 +189,10 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                        <h2 class="text-light">CACAHUA</h2>
+                        <h2 class="text-light">CACAHUATES</h2>
                         <div class="row">
                             
-                    <div class="col-6 col-sm-6 col-md-6 p-4">
+                    <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
                             <div class="card-body">
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 p-4">
+                    <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 8rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 8rem; height: 8rem;">
                             <div class="card-body">
@@ -214,10 +214,10 @@
                 </div>
                 <div class="row m-4 justify-content-center">
                     
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <h2 class="text-light">FRUTAS</h2>
+                    <div class="col-12 col-sm-12 col-md-6 border p-4">
+                        <h2 class="text-light p-4">FRUTAS</h2>
                         <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 p-4" id="chipsSelect">
+                            <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 7rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 7rem; height: 7rem;">
                             <div class="card-body">
@@ -225,7 +225,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 p-4">
+                    <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 7rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 7rem; height: 7rem;">
                             <div class="card-body">
@@ -235,7 +235,7 @@
                     </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-sm-6 col-md-6 p-4" id="chipsSelect">
+                            <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center" id="chipsSelect">
                         <div class="bg-transparent" style="width: 7rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 7rem; height: 7rem;">
                             <div class="card-body">
@@ -243,7 +243,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 p-4">
+                    <div class="col-6 col-sm-6 col-md-6 p-4 d-flex justify-content-center align-items-center">
                         <div class="bg-transparent" style="width: 7rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 7rem; height: 7rem;">
                             <div class="card-body">
@@ -253,10 +253,10 @@
                     </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-sm-6 ">
+                    <div class="col-12 col-sm-6 col-sm-6 border">
                         <h2 class="text-light">SALSAS</h2>
-                        <div class="row">
-                            <div class="col-4 col-sm-4 col-md-4" id="chipsSelect">
+                        <div class="row ">
+                            <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -264,7 +264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4">
+                    <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4">
+                    <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -282,7 +282,7 @@
                     </div>
                         </div>
                         <div class="row">
-                            <div class="col-4 col-sm-4 col-md-4" id="chipsSelect">
+                            <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -290,7 +290,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4">
+                    <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -298,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4">
+                    <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -308,7 +308,7 @@
                     </div>
                         </div>
                         <div class="row">
-                            <div class="col-4 col-sm-4 col-md-4" id="chipsSelect">
+                            <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2" id="chipsSelect">
                         <div class="bg-transparent" style="width: 5rem;" id="chips">
                             <img src="./assets/img/gummy.png" class="card-img-top" alt="..." style="width: 5rem; height: 5rem;">
                             <div class="card-body">
@@ -316,7 +316,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4">
+                    <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center align-items-center p-2">
                         <div class="bg-transparent" style="width: 5rem;">
                             <img src="./assets/img/gummy.png" class="card-img-top" style="width: 5rem; height: 5rem;">
                             <div class="card-body">
