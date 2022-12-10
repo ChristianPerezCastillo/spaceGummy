@@ -6,12 +6,10 @@
             <div class="row">
                 <paquete></paquete>
                 <logo></logo>
-                
-            </div>
-            <div class="row">
-                <gomitas></gomitas>
             </div>
         </main>
+        
+        <gomitas></gomitas>
         
     
 </template>
