@@ -7,9 +7,6 @@
         <section class="d-flex align-items-center ">
              <paquete></paquete>
         </section>
-        <section class="hero-animated  d-flex align-items-center ">
-             <paquete></paquete>
-        </section>
 </template>
 <script>
 import Logo from './components/Logo.vue';
