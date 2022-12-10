@@ -1,7 +1,11 @@
-/* color palette from <https://github.com/vuejs/theme> */
+
 #btnChico, #btnGde {
   /* Agregamos un margen entre los botones */
-  margin: 0 100px;
+  margin: 10px 10px ;
+}
+
+img{
+  width: 400px;
 }
 
 .glassWhite {
@@ -19,13 +23,14 @@
 }
 
 
-    h1 {
+h1 {
       font-family: 'Orbitron', sans-serif;
       color: #fff;
       text-shadow: 1px 1px 2px #333;
       background-image: linear-gradient(to right, #00c6ff, #0072ff);
       background-clip: text;
       -webkit-background-clip: text;
+
     }
 
     /* CSS */
@@ -38,19 +43,13 @@
   box-sizing: border-box;
   color: #2a1f62;
   cursor: pointer;
-  display: flex;
-  font-size: 1rem;
-  justify-content: center;
-  line-height: 1.5rem;
-  padding: 15px;
-  position: relative;
+  font-size: 1.5rem;
   text-align: left;
   transition: .2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: pre;
-  width: max-content;
   word-break: normal;
   word-spacing: normal;
 }

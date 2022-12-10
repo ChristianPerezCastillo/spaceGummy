@@ -2,11 +2,12 @@
 <template>
     
 
-        <!-- Secciont tamaño -->
-        <section class="align-items-center p-4">
-                <logo></logo>
-                <paquete class="mt-4"></paquete>
-        </section>
+        <main class="container">
+            <div class="row">
+                <div class="col-md-6 text-center"><logo></logo></div>
+                <paquete></paquete>
+            </div>
+        </main>
         
     
 </template>
