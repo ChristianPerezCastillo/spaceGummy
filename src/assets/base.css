@@ -3,9 +3,8 @@
 
 .glassWhite {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.728);
-  border: .05rem solid rgba(255, 255, 255, 0.621);
-  border-radius: 8em;
+  background-color: rgba(255, 255, 255, 0.882);
+  border: .05rem solid rgba(255, 255, 255, 0.801);
 }
 .glass {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
