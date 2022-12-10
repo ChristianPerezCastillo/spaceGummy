@@ -1,6 +1,6 @@
 @import './base.css';
-@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 body {
-  font-family: 'Crafty Girls', cursive;
+  font-family: 'Orbitron', sans-serif;;
   background-image: url("./img/space.png");
 }
