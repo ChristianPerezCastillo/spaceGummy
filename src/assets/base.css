@@ -1,10 +1,14 @@
 /* color palette from <https://github.com/vuejs/theme> */
-
+#btnChico, #btnGde {
+  /* Agregamos un margen entre los botones */
+  margin: 0 100px;
+}
 
 .glassWhite {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.882);
   border: .05rem solid rgba(255, 255, 255, 0.801);
+  border-radius: 2em;
 }
 .glass {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
