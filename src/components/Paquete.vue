@@ -1,5 +1,5 @@
 <template>
-      <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+      <div class="p-4 container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
              
         <div class="col-12 col-sm-12 col-md-12">
                     <div class="text-center bg-transparent glass p-4">
