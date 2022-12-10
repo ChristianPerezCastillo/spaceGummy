@@ -5,7 +5,7 @@
         <!-- Secciont tamaño -->
         <section class="align-items-center p-4">
                 <logo></logo>
-                <paquete></paquete>
+                <paquete class="mt-4"></paquete>
         </section>
         
     
