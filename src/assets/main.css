@@ -6,7 +6,5 @@
 }
 body {
   font-family: 'Orbitron', sans-serif;;
-  /* background-image: url("./img/space.png"); */
-  background-color: #333;
-  color: snow;
+  background-image: url("./img/space.png");
 }
