@@ -4,7 +4,7 @@
 
         <main class="container">
             <div class="row">
-                <div class="col-md-6 text-center"><logo></logo></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 text-center"><logo></logo></div>
                 <paquete></paquete>
             </div>
         </main>
