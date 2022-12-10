@@ -6,7 +6,7 @@
                             <h2 class="fs-1">Elige el tamaño de tu pedido.</h2>
                             <div class="container">
                                 <div class="row m-4 justify-content-center">
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="chico">
+                    <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center" id="chico">
                         <div class="bg-transparent" style="width: 15rem;" id="">
                             <!-- <img src="../assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="..." style="width: 15rem; height: 15rem;"> -->
                             
@@ -20,7 +20,7 @@
                                 <button type="button" class="btn btn-info btn-lg fs-1 m-4" id="tamañoChico">$40</button>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4 col-md-6 d-flex justify-content-center align-items-center" id="grande">
+                    <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center" id="grande">
                         <div class="bg-transparent" style="width: 15rem;" id="">
                             <!-- <img src="../assets/img/gummy.png" class="img-fluid d-block mx-auto" alt="" style="width: 15rem; height: 15rem;"> -->
                             
