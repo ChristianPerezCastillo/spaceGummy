@@ -1,14 +1,16 @@
-
+.disabled {
+  pointer-events: none;
+}
 .neon {
   font-size: 20px;
-  letter-spacing: 1px;
+  letter-spacing:-2px;
   color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff, 0 0 25px #0ff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
   -webkit-text-fill-color: #F4ECFF;
-  -webkit-text-stroke-color:#0ff;
+  -webkit-text-stroke-color:#C546F7;
   -webkit-text-stroke-width:0.2px;
   -moz-text-fill-color: #F4ECFF;
-  -moz-text-stroke-color:#0ff;
+  -moz-text-stroke-color:#C546F7;
   -moz-text-stroke-width:0.2px;
   }
 #btnChico, #btnGde {
@@ -22,15 +24,16 @@ img{
 
 .glassWhite {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.882);
+  background-color: rgba(255, 255, 255, 0.442);
   border: .05rem solid rgba(255, 255, 255, 0.801);
   border-radius: 2em;
 }
 
 .glassSelect {
-  box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0);
-  backdrop-filter: blur(1rem);
-  border: .05rem solid rgb(1, 1, 1);
+  box-shadow: 0 0.5rem 0.5rem #ff00de;
+  background-color: #ff00de;
+  backdrop-filter: blur(2rem);
+  border: .05rem solid #ff00de;
   border-radius: 1em;
 }
 .glass {
