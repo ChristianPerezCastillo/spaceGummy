@@ -1,9 +1,16 @@
+.border {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+
 .disabled {
   pointer-events: none;
 }
 .neon {
   font-size: 20px;
-  letter-spacing:-2px;
+  letter-spacing: 0px;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
   -webkit-text-fill-color: #F4ECFF;
@@ -30,10 +37,10 @@ img{
 }
 
 .glassSelect {
-  box-shadow: 0 0.5rem 0.5rem #ff00de;
-  background-color: #ff00de;
+  box-shadow: 0 0.5rem 0.5rem #FFF;
+  background-color: #FFF;
   backdrop-filter: blur(2rem);
-  border: .05rem solid #ff00de;
+  border: .05rem solid #FFF;
   border-radius: 1em;
 }
 .glass {

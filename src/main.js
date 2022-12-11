@@ -126,48 +126,37 @@ paqueteGrande.addEventListener('click', function() {
     paqueteChico.classList.add('d-none');
     descripcionPaqueteGrande.classList.remove('d-none');
     tickets = 6;
-    
-    // Asignamos una función al evento click del botón
-
   }
 });
 paqueteChico.addEventListener('click', function() {
   // Ocultamos el elemento <div> cuando se presiona el botón
   if(paqueteGrande.classList.contains('d-none')){
     paqueteGrande.classList.remove('d-none');
-    
     descripcionPaqueteChico.classList.add('d-none');
-    
     paqueteChico.classList.remove('col-xl-12');
     paqueteChico.classList.add('col-xl-6');
     paqueteGrande.classList.remove('col-xl-12');
     paqueteGrande.classList.add('col-xl-6');
-
     paqueteChico.classList.remove('col-lg-12');
     paqueteChico.classList.add('col-lg-6');
     paqueteGrande.classList.remove('col-lg-12');
     paqueteGrande.classList.add('col-lg-6');
-    
     paqueteChico.classList.remove('col-md-12');
     paqueteChico.classList.add('col-md-6');
     paqueteGrande.classList.remove('col-md-12');
     paqueteGrande.classList.add('col-md-6');
     tickets = null;
-    
     desSeleccionar();
   }else{
-
     paqueteChico.classList.remove('col-xl-6');
     paqueteChico.classList.add('col-xl-12');
     paqueteGrande.classList.remove('col-xl-6');
     paqueteGrande.classList.add('col-xl-12');
     paqueteGrande.classList.add('d-none');
-
     paqueteChico.classList.remove('col-lg-6');
     paqueteChico.classList.add('col-lg-12');
     paqueteGrande.classList.remove('col-lg-6');
     paqueteGrande.classList.add('col-lg-12');
-
     paqueteChico.classList.remove('col-md-6');
     paqueteChico.classList.add('col-md-12');
     paqueteGrande.classList.remove('col-md-6');

@@ -1,6 +1,13 @@
 <template>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center my-auto p-4 mt-4">
-      <div class="row m-4">
+      <div class="row m-4 border rounded-5">
+        <h2 class="neon fs-2">SELECCIONA TUS PRODUCTOS</h2>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
+                          <figure class="bg-transparent glass" style="width: 15rem; height: 15rem;" id="picafresaSelect">
+                              <img src="../assets/img/gusanitos.png" class="card-img-top" alt="..." style="width: 10rem; height: 10rem;">
+                              <p class="neon">PICAFRESA</p>
+                          </figure>
+        </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
                           <figure class="bg-transparent glass" style="width: 15rem; height: 15rem;" id="aciditoSelect">
                               <img src="../assets/img/aciditos.png" class="card-img-top" alt="..." style="width: 10rem; height: 10rem;">
@@ -61,6 +68,9 @@
                               <p class="neon">JAPONESES</p>
                           </figure>
         </div>
+      </div>
+      <div class="row m-4  border rounded-5">
+        <h2 class="neon fs-2">SELECCIONA TUS SALSAS</h2>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
                           <figure class="bg-transparent glass" style="width: 15rem; height: 15rem;" id="chamoySelect">
                               <img src="../assets/img/gusanitos.png" class="card-img-top" alt="..." style="width: 10rem; height: 10rem;">
@@ -103,15 +113,6 @@
                               <p class="neon">MIGUELITO</p>
                           </figure>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
-                          <figure class="bg-transparent glass" style="width: 15rem; height: 15rem;" id="picafresaSelect">
-                              <img src="../assets/img/gusanitos.png" class="card-img-top" alt="..." style="width: 10rem; height: 10rem;">
-                              <p class="neon">PICAFRESA</p>
-                          </figure>
-        </div>
-        
-      
-        
       </div>
     </div>
     </template>
