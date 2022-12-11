@@ -98,7 +98,7 @@ paqueteChico.addEventListener('click', function() {
 });
 
 const typed = new Typed('.typed', {
-    strings: ['1.-Escoge el tamaño de tu pedido.', '2.-Elige tus productos preferidos.', '3.-Presiona el boton de enviar.', '4.-Escribenos un WhatsApp para avisarnos que ya realizaste tu pedido.'],
+    strings: ['1.-Escoge un tamaño.', '2.-Elige tus productos.', '3.-Presiona el boton de enviar.', '4.-Escribenos un Whats.'],
     typeSpeed: 50,
     startDelay: 100,
     backSpeed: 50,

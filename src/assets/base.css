@@ -26,11 +26,18 @@ img{
   border: .05rem solid rgba(255, 255, 255, 0.801);
   border-radius: 2em;
 }
+
+.glassSelect {
+  box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0);
+  backdrop-filter: blur(1rem);
+  border: .05rem solid rgb(1, 1, 1);
+  border-radius: 1em;
+}
 .glass {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5rem);
   background-color: rgba(255, 7, 7, 0.06);
-  border: .05rem solid rgba(255, 255, 255, 0.1);
+  border: .05rem solid rgba(255, 255, 255, 0.011);
   border-radius: 2em;
 }
 
