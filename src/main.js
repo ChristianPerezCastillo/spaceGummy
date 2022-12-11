@@ -105,6 +105,7 @@ paqueteGrande.addEventListener('click', function() {
     paqueteGrande.classList.remove('col-md-12');
     paqueteGrande.classList.add('col-md-6');
     tickets = null;
+    desSeleccionar();
   }else{
 
     paqueteChico.classList.remove('col-xl-6');
@@ -128,17 +129,6 @@ paqueteGrande.addEventListener('click', function() {
     
     // Asignamos una función al evento click del botón
 
-  reload(aciditoSelect);
-  reload(aritoSelect);
-  reload(manguitoSelect);
-  reload(panditaSelect);
-  reload(dulcigomaSelect);
-  reload(gusanitoSelect);
-  reload(naturalSelect);
-  reload(adobadoSelect);
-  reload(hotnutSelect);
-  reload(japonesSelect);
-  reload(picafresaSelect);
   }
 });
 paqueteChico.addEventListener('click', function() {
@@ -164,6 +154,7 @@ paqueteChico.addEventListener('click', function() {
     paqueteGrande.classList.add('col-md-6');
     tickets = null;
     
+    desSeleccionar();
   }else{
 
     paqueteChico.classList.remove('col-xl-6');
@@ -184,6 +175,7 @@ paqueteChico.addEventListener('click', function() {
     
     descripcionPaqueteChico.classList.remove('d-none');
     tickets = 11;
+    
   }
 });
 
@@ -204,42 +196,52 @@ const typed = new Typed('.typed', {
 function selection(select){
   // Ocultamos el elemento <div> cuando se presiona el botón
   if(tickets != null){
+      if(select == chamoySelect || select == botaneraSelect || select == maggySelect || select == inglesaSelect || select == limonSelect || select == tajinSelect || select == miguelitoSelect){
+        if(select.classList.contains('glass')){
+          select.classList.remove('glass');
+          select.classList.add('glassSelect');
+        }else{
+          select.classList.add('glass');
+          select.classList.remove('glassSelect');
+        }
+      }else{
+
+        if(select.classList.contains('glass')){
+          select.classList.remove('glass');
+          select.classList.add('glassSelect');
+          tickets--;
     
-      if(select.classList.contains('glass')){
-        select.classList.remove('glass');
-        select.classList.add('glassSelect');
-        tickets--;
-  
-      }else{
-        select.classList.add('glass');
-        select.classList.remove('glassSelect');
-        tickets++;
-      }
-      if(tickets == 0){
-      aciditoSelect.classList.contains('glassSelect')? null : bloquear(aciditoSelect);
-      aritoSelect.classList.contains('glassSelect')? null : bloquear(aritoSelect);
-      manguitoSelect.classList.contains('glassSelect')? null : bloquear(manguitoSelect);
-      panditaSelect.classList.contains('glassSelect')? null : bloquear(panditaSelect);
-      dulcigomaSelect.classList.contains('glassSelect')? null : bloquear(dulcigomaSelect);
-      gusanitoSelect.classList.contains('glassSelect')? null : bloquear(gusanitoSelect);
-      naturalSelect.classList.contains('glassSelect')? null : bloquear(naturalSelect);
-      adobadoSelect.classList.contains('glassSelect')? null : bloquear(adobadoSelect);
-      hotnutSelect.classList.contains('glassSelect')? null : bloquear(hotnutSelect);
-      japonesSelect.classList.contains('glassSelect')? null : bloquear(japonesSelect);
-      picafresaSelect.classList.contains('glassSelect')? null : bloquear(picafresaSelect);
-      }else{
-        aciditoSelect.classList.contains('glassSelect')? null : desbloquear(aciditoSelect);
-      aritoSelect.classList.contains('glassSelect')? null : desbloquear(aritoSelect);
-      manguitoSelect.classList.contains('glassSelect')? null : desbloquear(manguitoSelect);
-      panditaSelect.classList.contains('glassSelect')? null : desbloquear(panditaSelect);
-      dulcigomaSelect.classList.contains('glassSelect')? null : desbloquear(dulcigomaSelect);
-      gusanitoSelect.classList.contains('glassSelect')? null : desbloquear(gusanitoSelect);
-      naturalSelect.classList.contains('glassSelect')? null : desbloquear(naturalSelect);
-      adobadoSelect.classList.contains('glassSelect')? null : desbloquear(adobadoSelect);
-      hotnutSelect.classList.contains('glassSelect')? null : desbloquear(hotnutSelect);
-      japonesSelect.classList.contains('glassSelect')? null : desbloquear(japonesSelect);
-      picafresaSelect.classList.contains('glassSelect')? null : desbloquear(picafresaSelect);
-      
+        }else{
+          select.classList.add('glass');
+          select.classList.remove('glassSelect');
+          tickets++;
+        }
+        if(tickets == 0){
+          aciditoSelect.classList.contains('glassSelect')? null : bloquear(aciditoSelect);
+          aritoSelect.classList.contains('glassSelect')? null : bloquear(aritoSelect);
+          manguitoSelect.classList.contains('glassSelect')? null : bloquear(manguitoSelect);
+          panditaSelect.classList.contains('glassSelect')? null : bloquear(panditaSelect);
+          dulcigomaSelect.classList.contains('glassSelect')? null : bloquear(dulcigomaSelect);
+          gusanitoSelect.classList.contains('glassSelect')? null : bloquear(gusanitoSelect);
+          naturalSelect.classList.contains('glassSelect')? null : bloquear(naturalSelect);
+          adobadoSelect.classList.contains('glassSelect')? null : bloquear(adobadoSelect);
+          hotnutSelect.classList.contains('glassSelect')? null : bloquear(hotnutSelect);
+          japonesSelect.classList.contains('glassSelect')? null : bloquear(japonesSelect);
+          picafresaSelect.classList.contains('glassSelect')? null : bloquear(picafresaSelect);
+        }else{
+          aciditoSelect.classList.contains('glassSelect')? null : desbloquear(aciditoSelect);
+          aritoSelect.classList.contains('glassSelect')? null : desbloquear(aritoSelect);
+          manguitoSelect.classList.contains('glassSelect')? null : desbloquear(manguitoSelect);
+          panditaSelect.classList.contains('glassSelect')? null : desbloquear(panditaSelect);
+          dulcigomaSelect.classList.contains('glassSelect')? null : desbloquear(dulcigomaSelect);
+          gusanitoSelect.classList.contains('glassSelect')? null : desbloquear(gusanitoSelect);
+          naturalSelect.classList.contains('glassSelect')? null : desbloquear(naturalSelect);
+          adobadoSelect.classList.contains('glassSelect')? null : desbloquear(adobadoSelect);
+          hotnutSelect.classList.contains('glassSelect')? null : desbloquear(hotnutSelect);
+          japonesSelect.classList.contains('glassSelect')? null : desbloquear(japonesSelect);
+          picafresaSelect.classList.contains('glassSelect')? null : desbloquear(picafresaSelect);
+          
+        }
       }
     
   }else{
@@ -257,4 +259,18 @@ function bloquear(select){
 }
 function desbloquear(select){
   select.classList.remove('disabled');
+}
+
+function desSeleccionar(){
+  reload(aciditoSelect);
+  reload(aritoSelect);
+  reload(manguitoSelect);
+  reload(panditaSelect);
+  reload(dulcigomaSelect);
+  reload(gusanitoSelect);
+  reload(naturalSelect);
+  reload(adobadoSelect);
+  reload(hotnutSelect);
+  reload(japonesSelect);
+  reload(picafresaSelect);
 }
