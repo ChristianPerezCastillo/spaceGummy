@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Typed from 'typed.js';
+import html2canvas from 'html2canvas'
 import './assets/main.css'
 createApp(App).mount('#app')
 
@@ -23,7 +24,7 @@ const japonesSelect = document.getElementById('japonesSelect');
 const chamoySelect = document.getElementById('chamoySelect');
 const botaneraSelect = document.getElementById('botaneraSelect');
 const maggySelect = document.getElementById('maggySelect');
-const inglesaSelect = document.getElementById('inglesaSelect');
+// const inglesaSelect = document.getElementById('inglesaSelect');
 const limonSelect = document.getElementById('limonSelect');
 const tajinSelect = document.getElementById('tajinSelect');
 const miguelitoSelect = document.getElementById('miguelitoSelect');
@@ -69,8 +70,8 @@ botaneraSelect.addEventListener('click', function() {
 maggySelect.addEventListener('click', function() {
   selection(maggySelect)});
 // Asignamos una función al evento click del botón
-inglesaSelect.addEventListener('click', function() {
-  selection(inglesaSelect)});
+// inglesaSelect.addEventListener('click', function() {
+//   selection(inglesaSelect)});
 // Asignamos una función al evento click del botón
 limonSelect.addEventListener('click', function() {
   selection(limonSelect)});
@@ -184,7 +185,7 @@ const typed = new Typed('.typed', {
 function selection(select){
   // Ocultamos el elemento <div> cuando se presiona el botón
   if(tickets != null){
-      if(select == chamoySelect || select == botaneraSelect || select == maggySelect || select == inglesaSelect || select == limonSelect || select == tajinSelect || select == miguelitoSelect){
+      if(select == chamoySelect || select == botaneraSelect || select == maggySelect || select == limonSelect || select == tajinSelect || select == miguelitoSelect){
         if(select.classList.contains('glass')){
           select.classList.remove('glass');
           select.classList.add('glassSelect');
