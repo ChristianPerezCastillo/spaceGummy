@@ -55,7 +55,7 @@
                               <p class="neon">HOT NUTS</p>
                           </figure>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 p-4 d-flex justify-content-center align-items-center">
                           <figure class="bg-transparent glass" style="width: 15rem; height: 15rem;" id="japonesSelect">
                               <img src="../assets/img/gusanitos.png" class="card-img-top" alt="..." style="width: 10rem; height: 10rem;">
                               <p class="neon">JAPONESES</p>
