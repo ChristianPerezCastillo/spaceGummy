@@ -19,16 +19,16 @@ paqueteGrande.addEventListener('click', function() {
     paqueteChico.classList.remove('d-none');
     descripcionPaqueteGrande.classList.add('d-none');
     
-    paqueteChico.classList.remove('col-xl-12');
-    paqueteChico.classList.add('col-xl-6');
-    paqueteGrande.classList.remove('col-xl-12');
-    paqueteGrande.classList.add('col-xl-6');
+    paqueteChico.classList.remove('col-md-12 col-lg-12 col-xl-12');
+    paqueteChico.classList.add('col-md-6 col-lg-6 col-xl-6');
+    paqueteGrande.classList.remove('col-md-12 col-lg-12 col-xl-12');
+    paqueteGrande.classList.add('col-md-6 col-lg-6 col-xl-6');
   }else{
 
-    paqueteChico.classList.remove('col-xl-6');
-    paqueteChico.classList.add('col-xl-12');
-    paqueteGrande.classList.remove('col-xl-6');
-    paqueteGrande.classList.add('col-xl-12');
+    paqueteChico.classList.remove('col-md-6 col-lg-6 col-xl-6');
+    paqueteChico.classList.add('col-md-12 col-lg-12 col-xl-12');
+    paqueteGrande.classList.remove('col-md-6 col-lg-6 col-xl-6');
+    paqueteGrande.classList.add('col-md-12 col-lg-12 col-xl-12');
     paqueteChico.classList.add('d-none');
     descripcionPaqueteGrande.classList.remove('d-none');
   }
@@ -40,16 +40,16 @@ paqueteChico.addEventListener('click', function() {
     
     descripcionPaqueteChico.classList.add('d-none');
     
-    paqueteChico.classList.remove('col-xl-12');
-    paqueteChico.classList.add('col-xl-6');
-    paqueteGrande.classList.remove('col-xl-12');
-    paqueteGrande.classList.add('col-xl-6');
+    paqueteChico.classList.remove('col-md-12 col-lg-12 col-xl-12');
+    paqueteChico.classList.add('col-md-6 col-lg-6 col-xl-6');
+    paqueteGrande.classList.remove('col-md-12 col-lg-12 col-xl-12');
+    paqueteGrande.classList.add('col-md-6 col-lg-6 col-xl-6');
   }else{
 
-    paqueteChico.classList.remove('col-xl-6');
-    paqueteChico.classList.add('col-xl-12');
-    paqueteGrande.classList.remove('col-xl-6');
-    paqueteGrande.classList.add('col-xl-12');
+    paqueteChico.classList.remove('col-md-6 col-lg-6 col-xl-6');
+    paqueteChico.classList.add('col-md-12 col-lg-12 col-xl-12');
+    paqueteGrande.classList.remove('col-md-6 col-lg-6 col-xl-6');
+    paqueteGrande.classList.add('col-md-12 col-lg-12 col-xl-12');
     paqueteGrande.classList.add('d-none');
     
     descripcionPaqueteChico.classList.remove('d-none');
