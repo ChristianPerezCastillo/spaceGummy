@@ -98,10 +98,10 @@ paqueteChico.addEventListener('click', function() {
 });
 
 const typed = new Typed('.typed', {
-    strings: ['Grande', 'Chico'],
-    typeSpeed: 75,
-    startDelay: 300,
-    backSpeed: 75,
+    strings: ['1.-Escoge el tamaño de tu pedido.', '2.-Elige tus productos preferidos.', '3.-Presiona el boton de enviar.', '4.-Escribenos un WhatsApp para avisarnos que ya realizaste tu pedido.'],
+    typeSpeed: 50,
+    startDelay: 100,
+    backSpeed: 50,
     smartBackspace: true,
     shuffle: false,
     backDelay: 1500,

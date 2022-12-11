@@ -4,8 +4,8 @@
 
         <main class="container">
             <div class="row">
-                <paquete></paquete>
                 <logo></logo>
+                <paquete></paquete>
             </div>
         </main>
         
